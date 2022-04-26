@@ -1,0 +1,25 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, red, black);
+    font-family: "Monaco";
+    color: white;
+}
+
+.Footer-Image {
+    padding-bottom: 10px;
+    height: 60px;
+    width: 70px;
+}
+
+.Github-Button {
+    all: unset;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: orange 5px auto;
+}

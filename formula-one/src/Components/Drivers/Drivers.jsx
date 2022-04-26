@@ -27,9 +27,6 @@ function Drivers() {
           {firstName} {familyName}
         </div>
       ))}
-      {drivers.map(({ nationality: country }) => (
-        <div>{country}</div>
-      ))}
     </div>
   );
 }

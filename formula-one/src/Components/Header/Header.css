@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: maroon;
+    background-image: linear-gradient(to bottom right, red, black);
     font-family: "Monaco";
 }
 
@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.Header-Image {
+.thumbnail {
     height: 100px;
 }
 
