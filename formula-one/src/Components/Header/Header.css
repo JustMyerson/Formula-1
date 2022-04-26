@@ -1,0 +1,30 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: maroon;
+    font-family: "Monaco";
+}
+
+.Header-Divs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Header-Image {
+    height: 100px;
+}
+
+.Heading-Text {
+    color: white;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+.Heading-Subtext {
+    color: white;
+    padding-right: 100px;
+}
